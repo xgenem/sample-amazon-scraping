@@ -6,4 +6,3 @@ scraper = AmazonScrape()
 
 #Data
 data = scraper.start()
-print(data)

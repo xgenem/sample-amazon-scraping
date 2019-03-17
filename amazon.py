@@ -27,6 +27,5 @@ class AmazonScrape:
             price = driver.find_element_by_id(id_="priceblock_ourprice")
             print('Price: ', price.text)
 
-            return title
         except Exception as e:
             print('Exception: ', e)
