@@ -7,6 +7,9 @@ $ brew cask install chromedriver
 ```
 $ git clone https://github.com/xgenem/sample-amazon-scraping.git amazon-scrape && cd amazon-scrape
 $ pip install -r requirements.txt
+```
+### Run
+```
 $ python run.py
 ```
 
